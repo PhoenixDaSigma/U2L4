@@ -1,0 +1,9 @@
+1. The dimensions need to be the same.
+
+2. The columns of the first matrix need to be equal to the rows of the second matrix.
+
+3. The resulting matrix has the dimensions of the first matrix's rows and the second's columns, so the dimensions can be figured out before the matrix is even calculated.
+
+4. In matrix multiplication, the outer loop must go through A[n] iterations, and the inner loop goes through B[m] iterations.
+
+5. The len() function that gives us the dimensions in integer form
